@@ -336,7 +336,6 @@ class PertData:
             split_path = split_path[:-4] + '_' + test_perts + '.pkl'
         
         if os.path.exists(split_path):
-            print('here1')
             print_sys("Local copy of split is detected. Loading...")
             set2conditions = pickle.load(open(split_path, "rb"))
             if split == 'simulation':
