@@ -1,4 +1,4 @@
-from torch_geometric.data import Data
+from torch_geometric.loader import Data
 import torch
 import numpy as np
 import pickle
